@@ -1,5 +1,12 @@
+body {
+  background-color: #fff5d7;
+}
+
 .App {
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .App-logo {
@@ -35,4 +42,36 @@
   to {
     transform: rotate(360deg);
   }
+}
+.container {
+  /* border: 1px solid red; */
+  width: 400px;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: #e1b382;
+}
+.list {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.task-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#delete-btn {
+  width: 50px;
+  height: 20px;
+  margin-left: 20px;
+}
+.add-btn {
+  margin-left: 20px;
+}
+.done-btn {
+  margin-left: 20px;
+}
+.input-add-ctn {
+  margin-bottom: 20px;
 }
